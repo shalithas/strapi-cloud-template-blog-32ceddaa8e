@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "frequently_asked_questions",
+  "info": {
+    "singularName": "frequently-asked-question",
+    "pluralName": "frequently-asked-questions",
+    "displayName": "Frequently Asked Question"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "question": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "text"
+    }
+  }
+}
